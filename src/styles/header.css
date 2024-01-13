@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Salsa&display=swap');
+
+.headDiv {
+    background-color: #112D4E;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 4em;
+}
+
+.heading {
+    font-family: 'Salsa', cursive;
+    font-size: 3em;
+    color: #F9F7F7;
+}

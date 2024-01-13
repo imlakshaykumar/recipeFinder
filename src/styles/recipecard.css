@@ -1,0 +1,19 @@
+.contentDiv {
+    max-width: 1600px;
+    margin: auto;
+    margin-top: 50px;
+
+}
+
+.contentGrid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 3em;
+    margin: 0 auto;
+    padding: 10px 20px;
+}
+
+.card {
+    height: 400px;
+    background-color: #3F72AF;
+}
