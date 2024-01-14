@@ -2,7 +2,6 @@
     max-width: 1600px;
     margin: auto;
     margin-top: 50px;
-
 }
 
 .contentGrid {
@@ -10,10 +9,52 @@
     grid-template-columns: repeat(4, 1fr);
     gap: 3em;
     margin: 0 auto;
-    padding: 10px 20px;
+    /* padding: 10px 0; */
 }
 
 .card {
-    height: 400px;
+    display: block;
+    height: fit-content;
+    border: 2px solid #DBE2EF;
+    border-radius: 30px;
+    width: fit-content;
+    /* background-color: #3F72AF; */
+}
+
+
+.contentImageDiv {
+    object-fit: cover;
+    display: block;
+    width: 360px;
+    border-radius: 30px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.contentImage {
+    display: block;
+    width: 100%;
+    border-radius: 30px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.contentButton {
+    width: 100%;
+    border-radius: 30px;
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+    padding: 20px;
+    border: none;
+    cursor: pointer;
+    background-color: #112D4E;
+    color: #F9F7F7;
+    font-size: 0.9em;
+    letter-spacing: 0.1;
+    font-weight: 600;
+}
+
+.contentButton:hover {
     background-color: #3F72AF;
+    /* color: #222; */
 }
