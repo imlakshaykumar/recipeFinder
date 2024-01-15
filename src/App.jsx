@@ -4,7 +4,7 @@ import { useState, useEffect } from 'react'
 import { Header } from './components/header'
 import { NavBar } from './components/navbar'
 import { RecipeCard } from './components/recipeCard'
-import { fetchData } from '../service'
+import { fetchData } from './service'
 
 
 function App() {
