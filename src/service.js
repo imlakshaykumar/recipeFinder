@@ -1,6 +1,6 @@
 
-const app_id = import.meta.env.VITE_APP_ID
-const api_key = import.meta.env.VITE_API_KEY
+const app_id = import.meta.env.VITE_MY_APP_ID
+const api_key = import.meta.env.VITE_MY_API_KEY
 
 export const fetchData = async (defaultQuery) => {
 
