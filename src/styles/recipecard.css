@@ -10,6 +10,7 @@
     gap: 3em;
     margin: 0 auto;
     /* padding: 10px 0; */
+    height: 95vh;
 }
 
 .card {
@@ -57,4 +58,27 @@
 .contentButton:hover {
     background-color: #3F72AF;
     /* color: #222; */
+}
+
+.paginationDiv {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.paginationBtn {
+    font-size: 20px;
+    padding: 15px 20px;
+    margin-left: 15px;
+    cursor: pointer;
+    border-radius: 50%;
+    border: transparent;
+    background-color: #112D4E;
+    color: #F9F7F7;
+}
+
+.paginationBtn:hover,
+.paginationBtn:focus,
+.paginationBtn:active {
+    background-color: #3F72AF;
 }
