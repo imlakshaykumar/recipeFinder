@@ -1,6 +1,10 @@
 import '../styles/recipecard.css'
 
 export const RecipeCard = ({ data }) => {
+
+    const handleClick = (url) => {
+        window.open(url, '_blank')
+    }
     return (
         <>
             <div className="contentDiv">
@@ -15,7 +19,9 @@ export const RecipeCard = ({ data }) => {
                                             className='contentImage'
                                             src={ item.recipe.images.SMALL.url } alt="" />
                                     </div>
-                                    <button className='contentButton'>
+                                    <button
+                                        onClick={ () => handleClick(item.recipe.url) }
+                                        className='contentButton'>
                                         { item.recipe.label }
                                     </button>
                                 </div>
